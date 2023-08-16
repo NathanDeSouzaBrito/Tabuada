@@ -43,8 +43,14 @@ input {
   font-weight: bolder;
 }
 
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 600px) {
   .form {
     width: 190px;
+  }
+}
+
+@media only screen and (max-width: 401px) {
+  .form {
+    width: 150px;
   }
 }
